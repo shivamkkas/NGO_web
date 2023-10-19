@@ -1,0 +1,136 @@
+body 
+	{ 
+		background-image: radial-gradient(#260132,#1632b0); 
+		height: 100vh; 
+        color: white;
+	} 
+#tag8{
+    text-align: center;
+    word-spacing: 50px;
+}
+#tag2{
+    font-size: 3vw;
+    word-spacing: 10px;
+}
+#tag2 h2{
+   position: relative;
+}
+#tag3{
+    text-align: center;
+    font-size: 3vw;
+
+}
+#tag3 form input{
+    width: 500px;
+    border-radius: 50px;
+    height: 50px;
+}
+::placeholder{
+    text-align: center;
+
+}
+#tag3 form button{
+    width: 500px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: blue;
+  
+    
+
+}
+#tag4 h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+#tag4 div div{
+    margin-left: 40px;
+
+}
+#tag4 div div p{
+    margin-left: 5%;
+    font-size: 2rem;
+}
+#tag4 div div h2{
+    font-size: 3rem;
+}
+#tag4 div div span{
+    font-size: 2rem;
+    font-weight: 100;
+}
+#tag4 p{
+    font-size: 3vw;
+    text-align: center;
+}
+#div1{
+    background-color: rgb(51, 49, 49);
+    border-radius: 50px;
+    margin: 3%;
+}
+#tag5 h1{
+    display:grid;
+    font-size: 3vw ;
+}
+#tag5 div h3{
+    font-size: 2vw;
+}
+#tag5 div p{
+    font-size: 1.5vw;
+}
+
+#tag2 h2::after { 
+		content: attr(data-text); 
+		position: absolute; 
+		top: 0; 
+		left: 0;
+		transform-origin: bottom; 
+		transform: rotateX(180deg); 
+		line-height: 0.85em; 
+		background-image: linear-gradient(0deg, #ffffff 0, transparent 95%); 
+		-webkit-background-clip: text; 
+		color: transparent;		 
+		opacity: 0.7; 
+	} 
+
+#slide{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+
+}  
+#slide div img{
+    width:600px;
+    height: 400px;
+} 
+
+#tag1{
+    color:aqua;
+    font-weight: 200px;
+    font-size: 2vw;
+} 
+footer{
+    background-color: aqua;
+    width:100%;
+}
+.footer-content-right h1{
+    font-size: 2vw;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:350px;
+}
+
+.icon-style:hover {
+  background-color:yellow;
+  padding:5px;
+}
+#bg img{
+    width:100%;
+}
+#hello img{
+    width:400px;
+    height: 400px;
+}

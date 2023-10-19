@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="master.css">
+    <title>Donation Page</title>
+
+</head>
+
+<body>
+    <marquee direction="right" behavior="alternate" id="tag1">NGO For Natural Disasters</marquee>
+    <nav id="tag8">
+        <span>Features</span>
+        <span>FAQ</span>
+    </nav>
+    <header id="tag2">
+        <h2 data-text="Donate to Combat Natural Disasters">Donate to Combat Natural Disasters</h2>
+        <h>Support our NGO's efforts in Combating
+            natural disasters such as global warming, floods, droughts, and water crises.
+        </h>
+    <section id="tag3">
+        <form>
+            <h3>Get notified about updates</h3>
+            <input id="email" placeholder="Enter Your email" required>
+            <h2><button onclick="newfunction()">Notify me</button></h2>
+        </form>
+    </section>
+    <marquee id="hello" width="100%" >
+        <img  src="ga1.jpeg">
+        <img  src="ga2.jpeg">
+        <img  src="ga3.jpeg">
+         <img  src="ga4.jpeg">
+        <img  src="ga5.jpeg">
+        <img  src="ga6.jpeg">
+        <img  src="ga7.jpeg">
+        <img  src="ga8.jpeg">
+    </marquee>
+    <section id="tag4">
+        <h1>Why Donate to our NGO?</h1>
+        <p>Make a difference in the flight against natural disasters</p>
+        <div id="div1">
+            <div>
+                <span>01</span>
+                <h2>Emergency Relief</h2>
+                <p>Your donation helps us provide immediate assistance to affected communities during natural disastres.
+                </p>
+            </div>
+            <div>
+                <span>02</span>
+                <h2>Climate Change Mitigation</h2>
+                <p>We work towards reducing the impact of global warming through awareness compaingns and sustainable
+                    practices.</p>
+            </div>
+            <div>
+                <span>03</span>
+                <h2>Water Conservation</h2>
+                <p>Support our initiatives to ensure access to clean water and combat water crises in vulnerable
+                    regions. </p>
+            </div>
+            <div>
+                <span>04</span>
+                <h2>Disaster Preparedness</h2>
+                <p>Your contribution helps us strengthen communities' resilience and preparedness for future natural
+                    disasters.</p>
+            </div>
+            <div>
+
+                <span>05</span>
+                <h2>Education and Training </h2>
+                <p>We provide educational programs and training to empower individuals and communities in disaster-prone
+                    areas.</p>
+            </div>
+            <div>
+                <span>06</span>
+                <h2>Research and Development </h2>
+                <p>Donate to fund rsearch projects aimed at finding innovative solutions to combat natural disasters.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="tag5">
+        <h1>Frequently Asked Questions</h1>
+        <div>
+            <h3>How Will my donation be used?</h3>
+            <p>Your donation will be used to support our various projects and initiatives aimed at combating natural
+                disasters, including emergency relief, climate change mitigation, water conservation, disaster
+                preparedness, education and training, and research and development.</p>
+        </div>
+        <div>
+            <h3>Is my donation tax-deductable?</h3>
+            <p> Yes, we are registered NGO, and your donation is tax-deductile as per the applicable laws and
+                regulations. </p>
+        </div>
+        <div>
+            <h3>Can I choose where my donation goes?</h3>
+            <p>While we appreciate your support, we allocate donations based on the most urgent needs and priorities at
+                the most urgent needs and priorities at the time.</p>
+        </div>
+        <div>
+            <h3>Can I get updates on te impact of my donations?</h3>
+            <p>Absolutely! we provide regular updates on our websites and through our newsletter to keep our donors
+                informed about the impact of their contributions and rhe progress of our projects.</p>
+        </div>
+
+    </section>
+    <section id="slide">
+        <div style="max-width:500px">
+            <img class="mySlides" src="g1.jpeg" >
+            <img class="mySlides" src="g2.jpeg" >
+            <img class="mySlides" src="g3.jpeg" >
+            <img class="mySlides" src="g4.jpeg" >
+            <img class="mySlides" src="download.jpeg" >
+            <img class="mySlides" src="download(1).jpeg">
+        </div>
+    </section>
+    <section id="tag3">
+        <form>
+            <h3>NGO for Natural Disasters</h3>
+            <h2>Donate to Combat Natural Disasters</h2>
+            <input placeholder="Enter Your email">
+            <button>Notify me</button>
+        </form>
+
+    </section>
+    <footer id="tag7">
+       
+        <div class="footer-content-right">
+            <h1>&copy 2023 Donate to Combat Natural Disastes All Rights Reserved</h1>
+            <a href="https://github.com/shivamkkas"><img src="github.jpeg" class="icon-style"
+                    alt="Github icon"></a>
+            <a href="https://twitter.com/DigitalOcean"><img src="twitter.jpeg" class="icon-style"
+                    alt="Twitter icon"></a>
+            <a href="https://twitter.com/home"><img src="email.jpeg" class="icon-style" alt="Emailicon"></a>
+        </div>
+
+    </footer>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        function newfunction() {
+            let x = document.getElementById("email");
+            alert("Thank you for contacting us. We are reviewing your request and we'll get in touch as soon as possible.");
+        }
+    </script>
+
+
+</body>
+
+</html>

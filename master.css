@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1500px) and (min-width: 1215px){
+
+}
+@media only screen and (max-width: 400px) and (max-height: 700px){
+    #tag3 form input{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+    }
+    #tag3 form button{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    #slide{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+
+    }
+    #slide div img{
+        width:350px;
+        height: 250px;
+    }
+    #tag4 h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #tag4 div div{
+        margin-left: 40px;
+    
+    }
+    #tag4 div div p{
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+    #tag4 div div h2{
+        font-size: 1.5rem;
+    }
+    #tag4 div div span{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .footer-content-right h1{
+        font-size: 3vw;
+    }
+    .icon-style {
+        margin-left:60px;
+      }
+    #tag5 h1{
+        display:grid;
+        font-size: 5vw ;
+    }
+    #tag5 div h3{
+        font-size: 4vw;
+    }
+    #tag5 div p{
+        font-size: 3vw;
+    }  
+}
+@media only screen and (max-width: 412px) and (max-height: 914px){
+    #tag3 form input{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+    }
+    #tag3 form button{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    #slide{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+
+    }
+    #slide div img{
+        width:350px;
+        height: 250px;
+    }
+    #tag4 h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #tag4 div div{
+        margin-left: 40px;
+    
+    }
+    #tag4 div div p{
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+    #tag4 div div h2{
+        font-size: 1.5rem;
+    }
+    #tag4 div div span{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .footer-content-right h1{
+        font-size: 3vw;
+    }
+    .icon-style {
+        margin-left:60px;
+      }
+    #tag5 h1{
+        display:grid;
+        font-size: 5vw ;
+    }
+    #tag5 div h3{
+        font-size: 4vw;
+    }
+    #tag5 div p{
+        font-size: 3vw;
+    }  
+}
+@media only screen and (max-width: 320px) and (max-height: 533px){
+    #tag3 form input{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+    }
+    #tag3 form button{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    #slide{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+
+    }
+    #slide div img{
+        width:350px;
+        height: 250px;
+    }
+    #tag4 h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #tag4 div div{
+        margin-left: 40px;
+    
+    }
+    #tag4 div div p{
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+    #tag4 div div h2{
+        font-size: 1.5rem;
+    }
+    #tag4 div div span{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .footer-content-right h1{
+        font-size: 3vw;
+    }
+    .icon-style {
+        margin-left:60px;
+      }
+    #tag5 h1{
+        display:grid;
+        font-size: 5vw ;
+    }
+    #tag5 div h3{
+        font-size: 4vw;
+    }
+    #tag5 div p{
+        font-size: 3vw;
+    }  
+}
+@media only screen and (max-width: 412px) and (max-height: 736px){
+    #tag3 form input{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+    }
+    #tag3 form button{
+        width: 300px;
+        border-radius: 50px;
+        height: 50px;
+        background-color: blue;
+    }
+    #slide{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+
+    }
+    #slide div img{
+        width:350px;
+        height: 250px;
+    }
+    #tag4 h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    #tag4 div div{
+        margin-left: 40px;
+    
+    }
+    #tag4 div div p{
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+    #tag4 div div h2{
+        font-size: 1.5rem;
+    }
+    #tag4 div div span{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .footer-content-right h1{
+        font-size: 3vw;
+    }
+    .icon-style {
+        margin-left:60px;
+      }
+    #tag5 h1{
+        display:grid;
+        font-size: 5vw ;
+    }
+    #tag5 div h3{
+        font-size: 4vw;
+    }
+    #tag5 div p{
+        font-size: 3vw;
+    }  
+}
+
+
+
+
+
+
+
